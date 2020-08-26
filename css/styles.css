@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #838383;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #838383;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Montserrat';
+
+}
+/* screen optimization */
+@media(max-width:1028px) {
+  .introduction {
+    text-align: center;
+  }
+
+}
+/* top section */
+
+.container-fluid {
+  padding: 3% 5%;
+}
+
+#title {
+  background-color: #fccbcb;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5%
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon {
+  color: #d9adad;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ad9d9d;
+}
+
+/* programs */
+#Programs {
+  background-color: #d9adad;
+  text-align: center;
+  line-height: 1.5;
+  padding: 100px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.first-image {
+  width: 30%;
+  border-radius: 100;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.second-image {
+  width: 30%;
+  border-radius: 100;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.third-image {
+  width: 30%;
+  border-radius: 100;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* press */
+#press {
+  background-color: #d9adad;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-colomn {
+  padding: 3% 2%;
+}
+
+.image {
+  padding-bottom: 10px;
+}
+
+/* last section */
+.download {
+  text-align: center;
+  background-color: #ad9d9d;
+  padding: 50px 0 30px 0;
+}
+
+/* fotter */
+.footer {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 30px 20px;
+  color: black;
+}
